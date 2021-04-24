@@ -1,0 +1,11 @@
+.SearchResult {
+  margin-top: 120px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.SearchResult p {
+  width: 98%;
+  word-wrap: break-word;
+  margin: 20px 10px;
+}

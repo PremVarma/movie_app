@@ -1,0 +1,49 @@
+.card_movie {
+  background: white;
+  text-decoration: none;
+  color: #444;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 0;
+  transition: all 0.1s ease-in;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.card_movie:hover {
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card_movie .thumb {
+  min-height: 350px;
+  padding-bottom: 60%;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Typography */
+.card_movie h3 {
+  font-size: 20px;
+  margin: 10px auto;
+  color: #333;
+  width: 95%;
+  word-break: break-all;
+}
+
+.card_movie p {
+  line-height: 1.4;
+}
+
+.card_movie span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 2em 0 0 0;
+}

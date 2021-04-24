@@ -1,0 +1,18 @@
+.gen-button {
+  text-transform: uppercase;
+  position: relative;
+  width: auto;
+  font-weight: 400;
+  background: #e50916;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 30px;
+  line-height: 2;
+  vertical-align: middle;
+  border: none;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}

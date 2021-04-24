@@ -1,0 +1,43 @@
+.AppMenu {
+  min-width: 300px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.AppMenu h3 {
+  color: white;
+  font-size: 16px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.AppMenu h3:hover {
+  cursor: pointer;
+  color: #e50a18;
+}
+
+.AppSearchHeader {
+  width: 100%;
+  min-height: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+  background: #171717;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .AppSearchHeader {
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+}
